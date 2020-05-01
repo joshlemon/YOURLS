@@ -74,7 +74,7 @@ define( 'YOURLS_COOKIEKEY', 'nRr(gakAmmN]-61wQwrttaxBacbd6K1bEV13L-C~' );
 	// 'username2' => 'password2',
 	// You can have one or more 'login'=>'password' lines
 	//);
-  define( 'YOURLS_NO_HASH_PASSWORD', true )
+  define( 'YOURLS_NO_HASH_PASSWORD', true );
 	$yourls_admin = getenv('YOURLS_ADMIN');
 	$yourls_pass = getenv('YOURLS_PASS');
 	$yourls_site = getenv('YOURLS_SITE');
