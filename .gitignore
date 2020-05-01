@@ -28,6 +28,12 @@
 # Ignore everything in includes/vendor/
 includes/vendor/*
 
+###########
+## File Clean Up
+
+readme.html
+sample*.txt
+
 ############
 ## Tests
 
