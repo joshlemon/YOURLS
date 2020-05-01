@@ -38,11 +38,10 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
  */
 
 /** YOURLS installation URL -- all lowercase, no trailing slash at the end.
- ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa)
+ ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa)*/
 
- ** define( 'YOURLS_SITE', 'http://your-own-domain-here.com' );
+define( 'YOURLS_SITE', getenv('YOURLS_SITE') );
 
- */
 
 /** Server timezone GMT offset */
 define( 'YOURLS_HOURS_OFFSET', 0 );
@@ -77,7 +76,6 @@ define( 'YOURLS_COOKIEKEY', 'nRr(gakAmmN]-61wQwrttaxBacbd6K1bEV13L-C~' );
   define( 'YOURLS_NO_HASH_PASSWORD', true );
 	$yourls_admin = getenv('YOURLS_ADMIN');
 	$yourls_pass = getenv('YOURLS_PASS');
-	$yourls_site = getenv('YOURLS_SITE');
 	$yourls_user_passwords = array($yourls_admin => $yourls_pass);
 
 /** Debug mode to output some internal information
