@@ -25,6 +25,9 @@
 !user/index.html
 !user/**/index.html
 
+# Ignore everything in includes/vendor/
+includes/vendor/*
+
 ############
 ## Tests
 
