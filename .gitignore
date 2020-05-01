@@ -2,15 +2,16 @@
 ## YOURLS
 
 # Ignore server configuration files
-.htaccess
+#.htaccess
 *.config
 *.conf
-[Rr]obots.txt
+*.md
+#[Rr]obots.txt
 
 # Ignore everything in user/
-user/*
+#user/*
 # ... except config sample
-!user/config-sample.php
+!user/config.php
 # ... core plugins
 !user/plugins/hyphens-in-urls/
 !user/plugins/random-bg/
